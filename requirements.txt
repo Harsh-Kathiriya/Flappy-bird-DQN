@@ -1,0 +1,6 @@
+pygame
+torch
+numpy
+PyYAML
+# Add any other specific libraries used in your project below
+# e.g., matplotlib for plotting, opencv-python for image processing, etc. 

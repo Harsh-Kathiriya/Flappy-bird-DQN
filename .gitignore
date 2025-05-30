@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+pip-wheel-metadata/
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+runs/
+runs2/
+runs3/
+runs4/
+runs5/
+runs6/
+runs7/
+*.pt
+hyperparameters.yml
+# If you have specific model files or hyperparameter configurations you *do* want to share,
+# you can explicitly un-ignore them with a ! prefix, e.g.:
+# !flappybird1.pt
+# !hyperparameters.yml 
+# For now, I will include the current .pt and .yml in the repo as per initial project structure. 
