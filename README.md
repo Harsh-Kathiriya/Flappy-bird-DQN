@@ -2,7 +2,7 @@
 
 This project implements a Deep Q-Network (DQN) agent to learn to play the game Flappy Bird. It was developed as part of a CS465 AI class and utilizes the `flappy_bird_gymnasium` environment.
 
-![Results](assets/Result.mov)
+[![Result](https://img.youtube.com/vi/UIHJSo5Q3Pw/0.jpg)](https://www.youtube.com/watch?v=UIHJSo5Q3Pw)
 
 ## Project Structure
 
