@@ -2,6 +2,8 @@
 
 This project implements a Deep Q-Network (DQN) agent to learn to play the game Flappy Bird. It was developed as part of a CS465 AI class and utilizes the `flappy_bird_gymnasium` environment.
 
+![Results](assets/Result.mov)
+
 ## Project Structure
 
 ```
@@ -131,13 +133,4 @@ python agent.py your_hyperparameter_set_name --checkpoint-file path/to/your/mode
 
 Below is a visual representation of the agent's performance during training (e.g., rewards over episodes).
 
-(Please move `runs7/flappybird7.png` to `assets/flappybird7.png` for this image to display correctly. If you have other relevant plots from your `runs` directories, consider adding them here as well, for instance, a plot showing loss decrease.)
 ![Training Results](assets/flappybird7.png)
-
-## Future Work / Improvements
-
-*   Explore more complex state representations (e.g., using multiple recent frames if not already done by the environment).
-*   Implement Prioritized Experience Replay.
-*   Conduct more extensive hyperparameter tuning, possibly using automated methods.
-*   Visualize Q-values or saliency maps to understand what the agent is focusing on.
-*   Compare performance against other reinforcement learning algorithms. 
